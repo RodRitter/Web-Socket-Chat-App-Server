@@ -8,7 +8,7 @@ const port = 3333;
 
 // Middelware
 var corsOptions = { 
-    origin: 'http://projects.ritter.co.za/lite-chat',
+    origin: 'http://projects.ritter.co.za',
     optionsSuccessStatus: 200,
     credentials: true
 };
