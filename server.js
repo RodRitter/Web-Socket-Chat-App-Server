@@ -8,7 +8,7 @@ const port = 3333;
 
 // Middelware
 var corsOptions = { 
-    origin: 'http://localhost:3000',
+    origin: 'http://projects.ritter.co.za/lite-chat',
     optionsSuccessStatus: 200,
     credentials: true
 };
