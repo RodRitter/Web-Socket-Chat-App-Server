@@ -8,7 +8,7 @@ const port = 3333;
 
 // Middelware
 var corsOptions = { 
-    origin: 'http://projects.ritter.co.za',
+    origin: 'https://projects.ritter.co.za',
     optionsSuccessStatus: 200,
     credentials: true
 };
@@ -26,6 +26,8 @@ var http = require('http').createServer(app);
 var io = require('socket.io')(http);
 
 let users = []
+
+app.get('/', (req, res) => res.send('Chat App Server'))
 
 io.on('connection', function(socket){
     console.log('User Connected');
