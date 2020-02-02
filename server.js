@@ -8,7 +8,7 @@ const port = 3333;
 
 // Middelware
 var corsOptions = { 
-    origin: 'https://projects.ritter.co.za',
+    origin: 'http://localhost:3000',
     optionsSuccessStatus: 200,
     credentials: true
 };
